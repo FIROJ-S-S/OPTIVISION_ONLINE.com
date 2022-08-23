@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+*{
+    font-family: 'Nunito' , sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background: var(--green);
+    color: white;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5em;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 2rem 9%;
+
+}
+
+
+
+
+.heading {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.heading span{
+    color: rgba(15, 15, 139, 0.847);
+    text-transform: uppercase;
+}
+
+.header-1{
+    background: #eee;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    color: rgb(58, 48, 45);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.923);
+}
+
+
+.category .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 9%;
+    text-align: left;
+    border: 1px solid rgba(238, 238, 238, 0.619); 
+    border-radius: 20px; 
+    box-shadow: 0 .5rem 1rem rgba(60, 55, 55, 0.408);
+    background-color: rgba(238, 238, 238, 0.352);
+}
+
+.category .box-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.category .box-container .box{
+    flex: 50rem;
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.745);
+}
+
+.category .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.category .box-container .box h3{
+    font-size: 23px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(159, 156, 156, 0.882);
+    border-radius: 10px;
+    color: black;
+}
+
+.category .box-container .box a{
+    font-size: 2rem;
+    padding: 3px 10px;
+    background-color: rgba(15, 15, 139, 0.734);
+    border: 1px solid rgba(118, 111, 111, 0.844);
+    border-radius: 15px;
+    color:#fff;
+}
+
+.category .box-container .box a:hover{
+    background-color: rgba(159, 156, 156, 0.882);
+    color: rgba(15, 15, 139, 0.734);
+}
